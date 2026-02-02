@@ -3,84 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prem Kumar | HTML Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="home" style="display: flex; flex-direction: row; justify-content: space-between;">
-        <div>
-            <img src="data:image/png;base64,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" alt="">
-            <p>Website built by janB1 </p>
-        </div>
-        
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">What is html?</a>
+
+    <!-- Header -->
+    <header id="Home" class="header">
+        <h1 class="logo">PREM KUMAR</h1>
+        <nav class="nav">
+            <a href="#about">What is HTML?</a>
             <a href="#projects">Projects</a>
             <a href="#location">Location</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <div style="text-align: center;">
-    <h1>Master HTML with TAP ACADEMY</h1>
-    <p>Learn HTML fundamentals and build your first web pages with our comprehensive course.</p>
-    <p><a href="">View my projects</a>    <a href="">why learn html?</a></p>
-    </div>
 
-    <table align="center"  border="2px solid black" cellpadding="10px" cellspacing="1px" >   
-        <tr >
-            <td>6+</td>
-            <td>100%</td>
-            <td><img src="https://cdn-icons-png.flaticon.com/128/657/657925.png" alt="infinity" height="30px" width="40px"></td>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Master HTML with TAP ACADEMY</h1>
+        <p>Learn HTML fundamentals and build your first web pages with our comprehensive course.</p>
+        <div class="hero-links">
+            <a href="#projects">View my projects</a>
+            <a href="#about">Why learn HTML?</a>
+        </div>
+    </section>
 
-        </tr>
-        <tr>
-            <td>Projects </td>
-            <td>Pure HTML</td>
-            <td>Perfection</td>
-        </tr>
-        
-        
-    </table>
-    <hr>
-    <h3 id="about">_____About the code______</h3>
-    <h2>What is HTML?</h2>
-    <table align="center" border="2px solid black" cellpadding="10px" cellspacing="1px" >
-        <tr >
-            <td>HTML</td>
-        
-            <td>HTML stands for HyperText Markup Language is using to create an structre to build static web pages.</td>
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stat">6+<span>Projects</span></div>
+        <div class="stat">100%<span>Pure HTML</span></div>
+        <div class="stat">
+            <img src="https://cdn-icons-png.flaticon.com/128/657/657925.png" alt="Perfection">
+            <span>Perfection</span>
+        </div>
+    </section>
 
-        </tr>
-    </table>
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>What is HTML?</h2>
+        <p>
+            <strong>HTML</strong> stands for HyperText Markup Language.  
+            It is used to create the structure of static web pages.
+        </p>
+    </section>
 
-    <h2 id="projects">Projects</h2>
-    <table align="center" border="2px solid black" cellpadding="10px" cellspacing="1px" >
-        <tr>
-            <th>Project 1</th>
-            <th>Project 2</th>
-            <th>Project 3</th>
-            <th>Project 4</th>
-            <th>Project 5</th>
-            <th>Project 6</th>
-        </tr>
-        <tr>
-            <td><a href="./Day-1/index.html">Movie Blog</a></td>
-            <td><a href="./Day-2/index.html">Portfolio</a></td>
-            <td><a href="./Day-3/index.html">Full Stack</a></td>
-            <td><a href="./Day-4/index.html">Time Table website</a></td>
-            <td><a href="./Day-5/index.html">Registration form</a></td>
-            <td><a href="./Day-6/index.html">Travel Blog</a></td>
-        </tr>
-        
-    </table>
-    <h1 id="location">Location</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.2214433626027!2d77.61063179999996!3d12.916314500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20ACADEMY%20BTM!5e1!3m2!1sen!2sin!4v1769758105290!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <br>
-    <h1 id="contact">Contact</h1>
-    <p>080 6987 8321
-TAP ACADEMY BTM, Primary phone</p>
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="./Day-1/index.html">Movie Blog</a></li>
+            <li><a href="./Day-2/index.html">Portfolio</a></li>
+            <li><a href="./Day-3/index.html">Full Stack</a></li>
+            <li><a href="./Day-4/index.html">Time Table Website</a></li>
+            <li><a href="./Day-5/index.html">Registration Form</a></li>
+            <li><a href="./Day-6/index.html">Travel Blog</a></li>
+        </ul>
+    </section>
 
+    <!-- Location -->
+    <section id="location" class="location">
+        <h2>Location</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.2214433626027!2d77.61063179999996!3d12.916314500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20ACADEMY%20BTM!5e1!3m2!1sen!2sin!4v1769758105290!5m2!1sen!2sin"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+    </section>
+    <a href="#Home"><img src="https://cdn-icons-png.flaticon.com/128/3838/3838680.png" class="arrow-top" ></a>
 
-    
+    <!-- Contact -->
+    <footer id="contact" class="footer">
+        <h2>Contact</h2>
+        <p>📞 080 6987 8321</p>
+        <p>TAP ACADEMY BTM, Primary Phone</p>
+    </footer>
+
 </body>
 </html>
